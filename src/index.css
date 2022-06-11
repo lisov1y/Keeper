@@ -30,30 +30,31 @@ header h1 {
 /* Note */
 
 .note {
-  border-radius: 5px;
-  display: inline-block;
-  padding: 10px 10px;
-  background-color: #fff;
-  margin: 15px 25px;
+  background: #fff;
+  border-radius: 7px;
   box-shadow: 0 2px 5px #d1d1d1;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
 }
 
 .note h2 {
-  margin: 0;
-  font-size: 16px;
+  font-size: 1.1em;
+  margin: 2px 0;
 }
 
 .note p {
-  margin: 2px 0;
-  font-size: 16px;
+  font-size: 1.1em;
+  margin: 5px 0;
 }
 
 /* Footer styling */
 
 footer {
-  position:absolute;
-  bottom:0;
-  width:100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   color: #d1d1d1;
 }
